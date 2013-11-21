@@ -25,9 +25,11 @@ It should be at the same level as the 'cms' and 'sapphire' modules.
 Usage Overview
 -----------------------------------------------
 This module will create a playlist for your youtube videos.
-the "src=" for the embeded youtube video is swapped out with jQuery. 
+the "src=" for the embeded youtube video is swapped out with jQuery.
 
-You can change the layout by editing the inline CSS, which is in the YouTubeVideoPage.ss file.
+Currently there is only one layout, which is to have the playlist attached to the right side of the youtube video
+
+You can however change the layout manually by editing the inline CSS, which is in the YouTubeVideoPage.ss file.
 
 *Video URL layout*
 The URL is the unique identification code from the videos web address.
