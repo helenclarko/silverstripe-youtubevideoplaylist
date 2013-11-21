@@ -1,5 +1,5 @@
 ###############################################
-You Tube Video Module
+You Tube Video playlist Module v0.1
 ###############################################
 
 Maintainer Contact
@@ -31,7 +31,8 @@ Currently there is only one layout, which is to have the playlist attached to th
 
 You can however change the layout manually by editing the inline CSS, which is in the YouTubeVideoPage.ss file.
 
-*Video URL layout*
+How to get the URL Code
+-----------------------------------------------
 The URL is the unique identification code from the videos web address.
 for example, if the videos web address is as follows:
 
@@ -44,3 +45,8 @@ FG45SDqwsFQ
 Known issues/Future updates:
 -----------------------------------------------
 1. Update code for 3.0
+2. Create more layouts and add a layout selection menu
+3. Add showing and hiding of the playlist menu toggle
+4. Allow for the user to change whether the playlist is showen on page load
+5. Add custom scroll bars
+
