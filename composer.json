@@ -1,6 +1,6 @@
 	{
 	  "name": "SilverStripe/youtubevideoplaylist",
-	  "description": "add playlist menu to youtube embed",
+	  "description": "Adds playlist menu to youtube embed",
 	  "type": "silverstripe-module",
 	  "homepage": "http://github.com/helenclarko/silverstripe-youtubevideoplaylist",
 	  "keywords": ["silverstripe", "you tube", "playlist", "youtube"],
