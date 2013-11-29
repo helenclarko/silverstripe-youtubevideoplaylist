@@ -15,5 +15,11 @@
 	    "silverstripe/cms": "2.4.*",
 	    "silverstripe/framework": "2.4.*"
 	  }
+	  "extra": {
+                "installer-name": "youtubevideoplaylist",
+                "screenshots": [
+                        "dev/screenshot.jpg"
+                ]
+        }
 	}	
 		
