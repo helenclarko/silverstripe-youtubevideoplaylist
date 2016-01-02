@@ -1,27 +1,28 @@
 <?php
-class Video extends DataObject{
-	static $db = array (
-		'VideoName' => 'VarChar(250)',
-		'URL' => 'VarChar(250)'
-	);
-	
-	static $has_one = array (
-		'YouTubeVideoPage' => 'YouTubeVideoPage',
-	);
-	
-	static $summary_fields = array(
-	);
-	
-	function getCMSFields_forPopup() {		
-		$fields = new FieldSet(new TabSet('Root'));
+class Video extends DataObject
+{
+    public static $db = array(
+        'VideoName' => 'VarChar(250)',
+        'URL' => 'VarChar(250)'
+    );
+    
+    public static $has_one = array(
+        'YouTubeVideoPage' => 'YouTubeVideoPage',
+    );
+    
+    public static $summary_fields = array(
+    );
+    
+    public function getCMSFields_forPopup()
+    {
+        $fields = new FieldSet(new TabSet('Root'));
          
-		//Name
+        //Name
         $fields->addFieldToTab("Root.Name", new TextField('VideoName', 'Name'));
-		
-		//Video
-		$fields->addFieldToTab("Root.Video", new TextField('URL', 'URL Code'));
-		 
+        
+        //Video
+        $fields->addFieldToTab("Root.Video", new TextField('URL', 'URL Code'));
+         
         return $fields;
-    } 
-	
+    }
 }
